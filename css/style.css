@@ -23,6 +23,7 @@ img {
   background: rgb(0,0,0);
 background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(38,22,2,1) 100%);
 width: 100%;
+overflow-x: hidden;
 }
 
 .conteiner {
@@ -118,7 +119,7 @@ font-size: 50px;
   margin: 30px 0;
 }
 
-.hero--info .btn {
+.hero--info .btn, .hero-about .info .btn {
 background: linear-gradient(86deg, rgba(250,131,5,1) 0%, rgba(251,158,60,1) 100%);
 border-radius: 40px;
 color: white;
@@ -128,7 +129,7 @@ transition: all 500ms ease;
 margin-top: 20px;
 }
 
-.hero--info .btn:hover {
+.hero--info .btn:hover, .hero-about .info .btn:hover {
   cursor: pointer;
   transform: scale(1.1);
 }
@@ -338,6 +339,59 @@ margin-top: 20px;
   color: white;
   border-radius: 8px;
 }
+
+/* Страница про нас */
+.hero-about {
+  position: relative;
+}
+
+.hero-about .info {
+  width: 500px;
+  padding: 200px 0;
+}
+
+.hero-about .info h1 {
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.hero-about .info .btn {
+  margin-top: 40px;
+}
+
+.hero-about img {
+  position: absolute;
+  right: -50px;
+  top: 0;
+}
+
+.work {
+  padding: 80px 0;
+
+}
+
+.work h2 {
+  font-size: 25px;
+  margin-bottom: 40px;
+}
+
+.work .blocks {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.work .blocks .block {
+  width: 25%;
+  border-radius: 10px;
+  padding: 50px 35px;
+}
+
+
+
+
+
+
 /* футер */
 
 footer {
