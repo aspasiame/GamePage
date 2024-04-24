@@ -11,6 +11,7 @@ body {
   font-weight: 400;
   color: white;
   font-size: 16px;
+  background: black;
 }
 a {
   text-decoration: none;
@@ -385,11 +386,127 @@ margin-top: 20px;
   width: 25%;
   border-radius: 10px;
   padding: 50px 35px;
+  background: #1C140F;
 }
 
+.work .blocks .block h3 {
+  font-size: 20px;
+  margin: 20px 0;
+}
 
+.work .blocks .block .badge {
+  border-radius: 7px;
+  padding: 10px 20px;
 
+}
+.work .blocks .block .badge.purple {
+  background: #b000dc21;
+}
 
+.work .blocks .block .badge.brown {
+  background: #dc420025;
+}
+
+.work .blocks .block .badge.green {
+  background: #00dc8b25;
+}
+
+/* Страница контакты */
+
+.hero-contacts h1 {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  font-size: 33px;
+}
+
+.hero-contacts p {
+  text-align: center;
+}
+
+.hero-contacts img {
+  width: 70%;
+  margin: 80px 15%;
+}
+
+.feedback {
+  padding: 70px 0;
+  background: #1C140F;
+}
+
+.feedback h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 30px;
+
+}
+
+.feedback p {
+  text-align: center;
+  
+  margin-top: 10px;
+  
+}
+
+.feedback form {
+  margin: 80px auto;
+  width: 600px;
+
+}
+
+.feedback form .inline {
+  display: flex;
+  justify-content: space-between;
+   
+}
+.feedback form .inline>div {
+  width: 50%;
+}
+
+.feedback form label {
+  color: #4f4f4f;
+  font-size: 14px;
+
+}
+
+.feedback form input,
+.feedback form textarea {
+  background: #2c2420;
+  border-radius: 10px;
+  border: 0.6px solid #cecece;
+  display: block;
+  width: 90%;
+  padding: 15px 10px;
+  outline: none;
+  color:white;
+  margin-top: 7px;
+ margin-bottom: 20px;
+}
+
+.feedback form .one-line {
+  width: 95%;
+}
+
+.feedback form textarea {
+  resize: none;
+  height: 200px;
+}
+.feedback form button {
+  background: #DC7000;
+  border-radius: 5px;
+  border: 0;
+  float: right;
+  cursor: pointer;
+  color: white;
+  padding: 15px 35px;
+  margin-right: 8px;
+  transition: all 500ms ease;
+
+}
+
+.feedback form button:hover {
+  background: rgba(160, 76, 2, 0.855);
+}
 
 
 /* футер */
