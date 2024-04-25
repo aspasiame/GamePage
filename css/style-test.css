@@ -1,0 +1,17 @@
+.parent-container {
+  display: flex;
+  justify-content: center; /* Центрирование по горизонтали */
+  align-items: center; /* Центрирование по вертикали */
+  height: 100vh; /* Высота по высоте видимой области экрана */
+}
+
+.child-container1 {
+background: green;
+width: 500px;
+  /* Стилизация ваших вертикальных контейнеров */
+}
+
+.child-container2 {
+  background: blue;
+  width: 500px;
+}
