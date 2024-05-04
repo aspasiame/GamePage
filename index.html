@@ -4,180 +4,398 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <title>Web</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="libs/owlCarusel2/assets/owl.carousel.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="libs/owlCarusel2/assets/owl.theme.default.css"
+    />
+    <title>Document</title>
   </head>
   <body>
-    <div class="wrapper">
-      <header class="conteiner">
-        <span class="logo">logo</span>
-        <nav>
-          <ul>
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li class="news"><a href="news.html">News</a></li>
-            <li class="btn"><a href="contacts.html">Contacts</a></li>
+    <header class="header">
+      <div class="conteiner">
+        <div class="header-top">
+          <a href="#"> <img src="img/Logo.png" alt="logo" /></a>
+          <ul class="ul">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a target="_blank" href="about.html">About us</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
           </ul>
-        </nav>
-      </header>
-      <div class="hero conteiner">
-        <div class="hero--info">
-          <h2>3D game Dev</h2>
-          <h1>Work that we produce for our clients</h1>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard.
-          </p>
-          <button class="btn">Get more details</button>
+          <button class="btn">Contact us</button>
         </div>
-        <img src="images/Joystick.png" alt="" />
-      </div>
-
-      <div class="conteiner trending">
-        <a href="#" class="see-all">SEE ALL</a>
-        <h3>Currently Trending Games</h3>
-        
-
-        <div class="games">
-          <div class="block">
-            <img src="images/Game-1.png" alt="">
-            <span><img src="images/fire 1.svg" alt="">40 Followers</span>
+        <div class="header-inner">
+          <div class="header-info">
+            <h1 class="header-title">
+              Building stellar websites for early startups
+            </h1>
+            <h3 class="header-text">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Dignissimos dicta asperiores.
+              </p>
+            </h3>
+            <div class="header-links">
+              <a class="header-btn" href="#!">View our work</a>
+              <a class="header-link" href="#!">View Pricing</a>
+            </div>
           </div>
-          <div class="block">
-            <img src="images/Game-2.png" alt="">
-            <span><img src="images/fire 1.svg" alt="">40 Followers</span>
-          </div>
-          <div class="block">
-            <img src="images/Game-3.png" alt="">
-            <span><img src="images/fire 1.svg" alt="">40 Followers</span>
-          </div>
-          <div class="block">
-            <img src="images/Game-4.png" alt="">
-            <span><img src="images/fire 1.svg" alt="">40 Followers</span>
+          <div class="header-img">
+            <img class="img-1" src="img/Illustration.svg" alt="" />
           </div>
         </div>
       </div>
+    </header>
 
-      <div class="conteiner big-text">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque, maxime nemo.</p>
-      </div>
+    <section class="section__work">
+      <div class="conteiner">
+        <div class="section__work-row">
+          <div class="section__work-content">
+            <h2 class="work-title">How we work</h2>
+            <div class="work-info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+              soluta magnam odio libero numquam?
+            </div>
+            <a href="#!" class="work-link">Get in touch with us</a>
+          </div>
 
-      <div class="conteiner banner">
-          <h3>Lorem Ipsum</h3>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi, doloremque perspiciatis? Officia quae perferendis rem nam, aliquam nihil cum aspernatur libero itaque distinctio.</p>
-          <img src="images/Banner.png" alt="">
-      </div>
-    </div>
-
-    <div class="features">
-        <div class="conteiner">
-          <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae deleniti nulla illo, dolores accusamus, excepturi beatae magni repudiandae sequi consequuntur at ipsam distinctio quaerat minima quos fugit ex labore ullam.</h3>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto error aperiam harum ipsum. Sequi, saepe? Blanditiis sunt odio animi magnam dolores. Iusto, debitis incidunt. Ad incidunt quis autem laudantium veritatis!</p>
-          <div class="info">
-            <div class="block">
-              <img src="images/Feature1.png" alt="">
-              <p>Mobile Game Development</p>
-              <img src="images/arrow 1.png" alt="">
+          <div class="section__work-cards">
+            <div class="card">
+              <div class="img-card">
+                <img class="mask" src="img/Mask.png" alt="" />
+              </div>
+              <h3 class="card-title">Strategy</h3>
+              <div class="card-info">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </div>
             </div>
-            <div class="block">
-              <img src="images/Feature2.png" alt="">
-              <p>PC Game Development</p>
-              <img src="images/arrow 1.png" alt="">
+            <div class="card">
+              <div class="img-card img-card--2">
+                <img class="mask" src="img/Mask.png" alt="" />
+              </div>
+              <h3 class="card-title">Wireframing</h3>
+              <div class="card-info">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </div>
             </div>
-            <div class="block">
-              <img src="images/Feature3.png" alt="">
-              <p>PS4 Game Development</p>
-              <img src="images/arrow 1.png" alt="">
+            <div class="card">
+              <div class="img-card img-card--3">
+                <img class="mask" src="img/Mask.png" alt="" />
+              </div>
+              <h3 class="card-title">Design</h3>
+              <div class="card-info">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </div>
             </div>
-            <div class="block">
-              <img src="images/Feature4.png" alt="">
-              <p>AR/VR Solutions</p>
-              <img src="images/arrow 1.png" alt="">
-            </div>
-            <div class="block">
-              <img src="images/Feature5.png" alt="">
-              <p>AR/ VR design</p>
-              <img src="images/arrow 1.png" alt="">
-            </div>
-            <div class="block">
-              <img src="images/Feature6.png" alt="">
-              <p>3D Modelings</p>
-              <img src="images/arrow 1.png" alt="">
+            <div class="card">
+              <div class="img-card img-card--4">
+                <img class="mask" src="img/Mask.png" alt="" />
+              </div>
+              <h3 class="card-title">Development</h3>
+              <div class="card-info">
+                Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+                aliquam.
+              </div>
             </div>
           </div>
         </div>
-    </div>
-
-    <div class="wrapper">
-      <div class="conteiner projects">
-        <h3>Our Recent Projects</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur est itaque asperiores totam vero laudantium necessitatibus </p>
-        <div class="images">
-          <img src="images/Project1.png" alt="">
-          <img src="images/Project2.png" alt="">
-          <img src="images/Project3.png" alt="">
-
-        </div>
-        <div class="images">
-          <img src="images/Project4.png" alt="">
-          <img src="images/Project5.png" alt="">
-          <img src="images/Project6.png" alt="">
-        </div>
-        <a href="" class="see-all">SEE ALL</a>
       </div>
-
-      <div class="conteiner email">
-        <h3>Lorem Ipsum</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum magni odio distinctio repudiandae quas minus exercitationem commodi corporis quaerat, quidem libero laboriosam molestiae fugiat animi eaque velit ducimus beatae totam.</p>
-        <div class="block">
-          <div>
-            <h4>Stay in the loop</h4>
-            <p>Subscribe to receive the latest news and updates about TDA.
-              We promise not to spam you! </p>
+    </section>
+    <section class="projects close">
+      <div class="conteiner">
+        <div class="projects-row">
+          <h2 class="projects-title">View our projects</h2>
+          <a class="projects-link" href="#!">View More</a>
+        </div>
+        <div class="projects-cards-row">
+          <div class="card-01">
+            <p class="card-02-title-2" href="#!">
+              Workhub office Webflow Webflow Design
+            </p>
+            <p class="card-02-text">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam
+            </p>
+            <img src="img/Card.png" alt="" />
+            <a class="card-2-link-2" href="#!">View portfolio</a>
           </div>
-          <div>
-            <input type="email" id="emailField" placeholder="Enter email address">
-            <button onclick="checkEmail()">Continue</button>
+
+          <div class="cards-02-03">
+            <div class="card-02">
+              <p class="card-02-title" href="#!">Unisaas Website Design</p>
+              <img src="img/Card3.png" alt="" />
+              <a class="card-2-link" href="#!">View portfolio</a>
+            </div>
+            <div class="card-03">
+              <img src="img/Card2.png" alt="" />
+            </div>
           </div>
         </div>
       </div>
-      
-    </div>
+    </section>
 
-    <footer>
-      <div class="blocks conteiner">
-        <div>
-          <span class="logo">logo</span>
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum vero accusamus voluptatibus eveniet et eligendi asperiores tempore porro pariatur quia consequatur quisquam, neque harum dolor at, veritatis ipsa. Dolorum, earum!</p>
-        </div>
-        <div>
-          <h4>About us</h4>
-          <ul>
-            <li>Zeux</li>
-            <li>Portfolio</li>
-            <li>Careers</li>
-            <li>Contact us</li>
-          </ul>
-        </div>
-        <div>
-          <h4>Contact us</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nesciunt tenetur itaque fuga, tempora cum a quasi? Officia aspernatur animi sed dolores nam aut mollitia consectetur quae? Et, corrupti alias.</p>
-          <p>+908 89097 890</p>
+    <section class="design close">
+      <div class="conteiner">
+        <h3 class="design-h3">Features</h3>
+        <h2 class="design-h2">
+          Design that solves problems, one product at a time
+        </h2>
+
+        <div class="design-card-inner">
+          <div class="design-card">
+            <img src="img/Icon1.png" alt="..." />
+            <div class="design-card-title">Uses Client First</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
+          <div class="design-card">
+            <img src="img/Icon2.png" alt="..." />
+            <div class="design-card-title">Two Free Revision Round</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
+          <div class="design-card">
+            <img src="img/Icon3.png" alt="..." />
+            <div class="design-card-title">Template Customization</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
+          <div class="design-card">
+            <img src="img/Icon4.png" alt="..." />
+            <div class="design-card-title">24/7 Support</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
+          <div class="design-card">
+            <img src="img/Icon5.png" alt="..." />
+            <div class="design-card-title">Quick Delivery</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
+          <div class="design-card">
+            <img src="img/Icon6.png" alt="..." />
+            <div class="design-card-title">Hands-on approach</div>
+            <div class="design-card-info">
+              Euismod faucibus turpis eu gravida mi. Pellentesque et velit
+              aliquam sed faucib turpis eu gravida mi. Pellentesque et velit
+              aliquam sed mi.
+            </div>
+          </div>
         </div>
       </div>
-      <hr>
-      <p>Copyright ® 2021 Lorem All rights Rcerved</p>
-    </footer>
+    </section>
 
-    <script>
-      function checkEmail() {
-        let email = document.querySelector('#emailField').value;
-        if(!email.includes('@')) alert('Нет символа@');
-        else if(!email.includes('.')) alert('Нет символа .');
-        else alert('Все отлично!')
-        
-      }
-    </script>
+    <section class="slider close">
+      <div class="conteiner">
+        <div class="slider-inner">
+          <div class="slider-left-block">
+            <div class="left-block-title">What our clients say about us</div>
+            <div class="left-block-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Temporibus!
+            </div>
+          </div>
+
+          <div class="slider-right-block">
+            <div class="owl-carousel owl-theme">
+              <div class="slider-item">
+                <div class="slider-item-title">
+                  "The best agency weve worked with so far. They understand our
+                  product and are able to add new features with a great focus."
+                </div>
+                <div class="slider-info">
+                  <img class="avatar" src="img/slider/Mask Group.png" alt="" />
+                  <div>
+                    <span class="slider-name">Jenny Wilson</span>
+                    <p class="avatar-info">Vice President</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-item-title">
+                  "The best agency weve worked with so far. They understand our
+                  product and are able to add new features with a great focus."
+                </div>
+                <div class="slider-info">
+                  <img class="avatar" src="img/slider/Mask Group.png" alt="" />
+                  <div>
+                    <span class="slider-name">Jenny Wilson</span>
+                    <p class="avatar-info">Vice President</p>
+                  </div>
+                </div>
+              </div>
+              <div class="slider-item">
+                <div class="slider-item-title">
+                  "The best agency weve worked with so far. They understand our
+                  product and are able to add new features with a great focus."
+                </div>
+                <div class="slider-info">
+                  <img class="avatar" src="img/slider/Mask Group.png" alt="" />
+                  <div>
+                    <span class="slider-name">Jenny Wilson</span>
+                    <p class="avatar-info">Vice President</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="arrow-left"></div>
+            <div class="arrow-right"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="faq">
+      <div class="conteiner">
+        <div class="faq-section">
+          <div class="faq-section-left">
+            <h2 class="faq-left-title">Frequently asked questions</h2>
+            <a href="#!" class="faq-link">Contact us for more info</a>
+          </div>
+
+          <div class="faq-section-right">
+            <div class="faq-right-block">
+              <div class="question">
+                <div class="faq-quest">
+                  <div class="frb-number">01</div>
+                  <div class="faq-right-title">How much time does it take?</div>
+                </div>
+                <div class="expand-btn">+</div>
+              </div>
+              <div class="answer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <hr class="faq-line" />
+            <div class="faq-right-block">
+              <div class="question">
+                <div class="faq-quest">
+                  <div class="frb-number">02</div>
+                  <div class="faq-right-title">How much time does it take?</div>
+                </div>
+                <div class="expand-btn">+</div>
+              </div>
+              <div class="answer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <hr class="faq-line" />
+            <div class="faq-right-block">
+              <div class="question">
+                <div class="faq-quest">
+                  <div class="frb-number">03</div>
+                  <div class="faq-right-title">How much time does it take?</div>
+                </div>
+                <div class="expand-btn">+</div>
+              </div>
+              <div class="answer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <hr class="faq-line" />
+            <div class="faq-right-block">
+              <div class="question">
+                <div class="faq-quest">
+                  <div class="frb-number">04</div>
+                  <div class="faq-right-title">How much time does it take?</div>
+                </div>
+                <div class="expand-btn">+</div>
+              </div>
+              <div class="answer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+            <hr class="faq-line" />
+            <div class="faq-right-block">
+              <div class="question">
+                <div class="faq-quest">
+                  <div class="frb-number">05</div>
+                  <div class="faq-right-title">How much time does it take?</div>
+                </div>
+                <div class="expand-btn">+</div>
+              </div>
+              <div class="answer">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="inquiry">
+      <div class="conteiner">
+        <div class="inquiry-main-block">
+          <div class="inquiry-left-block">
+            <div class="inquiry-lb-text">
+              <h2>Building stellar websites for early startups</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua ut
+                enim.
+              </p>
+            </div>
+          </div>
+
+          <div class="inquiry-right-block">
+
+            <div class="inquiry-rb-title">Send inquiry</div>
+            <div class="inquiry-rb-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore.
+            </div>
+            
+              <form class="inquiry-rb-form">
+              <input type="name" placeholder="Your Name">
+              <input type="email" placeholder="Email">
+              <input type="url" placeholder="Paste your Figma design URL">
+              <button type="submit">Send an Inquiry</button>
+            </form>
+            <a class="inquiry-rb-link" href="#!">Get in touch with us</a>
+          </div>  
+          
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="libs/jQuery/jquery-3.7.1.min.js"></script>
+    <script src="libs/owlCarusel2/owl.carousel.min.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
